@@ -3,7 +3,7 @@
 <div align="center">
   <img src="/public/homepage-screenshot.png" alt="Light Speed Homepage" width="100%">
   
-  [View Live Demo](https://lightspeed-website.vercel.app) | [Report Bug](https://github.com/Kevinjulu/Lightspeed-Website/issues) | [Request Feature](https://github.com/Kevinjulu/Lightspeed-Website/issues)
+  [View Live Demo](https://lightspeed-website.vercel.app/) | [Report Bug](https://github.com/Kevinjulu/Lightspeed-Website/issues) | [Request Feature](https://github.com/Kevinjulu/Lightspeed-Website/issues)
 </div>
 
 ## ✨ Overview
