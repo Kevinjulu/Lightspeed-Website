@@ -1,123 +1,117 @@
-# Light Speed - High-Speed Internet Provider Website
+# 🚀 Light Speed Internet - Kenya's Premier ISP
 
-A modern, responsive website built with Next.js 14, React 18, and TypeScript for Light Speed Internet Provider in Kenya.
+<div align="center">
+  <img src="/public/homepage-screenshot.png" alt="Light Speed Homepage" width="100%">
+  
+  [View Live Demo](https://lightspeed-website.vercel.app) | [Report Bug](https://github.com/Kevinjulu/Lightspeed-Website/issues) | [Request Feature](https://github.com/Kevinjulu/Lightspeed-Website/issues)
+</div>
 
-## 🚀 Features
+## ✨ Overview
 
-- Modern, responsive design with TailwindCSS
-- Smooth animations with Framer Motion
-- Server-side rendering with Next.js 14 App Router
-- Type-safe development with TypeScript
-- Comprehensive UI components using Radix UI
-- Form handling with React Hook Form and Zod validation
-- Dark mode support with next-themes
-- Interactive data visualizations with Recharts
+Light Speed is Kenya's innovative Internet Service Provider, bringing high-speed connectivity to communities across the nation. Our platform showcases our commitment to bridging the digital divide with cutting-edge technology and reliable service.
 
-## 📋 Prerequisites
+### 🌟 Key Features
+
+- **Modern Design**: Sleek, responsive interface built with Next.js 14 and Tailwind CSS
+- **Performance Optimized**: Server-side rendering and optimized assets for fast loading
+- **Interactive UI**: Smooth animations and transitions using Framer Motion
+- **Accessibility**: WCAG compliant with full keyboard navigation support
+- **Mobile First**: Fully responsive design that works on all devices
+
+## 🛠️ Built With
+
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Radix UI](https://www.radix-ui.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Forms**: React Hook Form + Zod
+- **Deployment**: [Vercel](https://vercel.com)
+
+## 🚀 Getting Started
+
+### Prerequisites
 
 - Node.js 18.x or later
 - npm or yarn package manager
 
-## 🛠️ Installation
+### Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd poa-website
-```
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Kevinjulu/Lightspeed-Website.git
+   cd Lightspeed-Website
+   ```
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-3. Create a `.env.local` file in the root directory and add any necessary environment variables:
-```env
-NEXT_PUBLIC_API_URL=your_api_url_here
-```
+3. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-4. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 🏗️ Project Structure
+## 📁 Project Structure
 
 ```
-├── app/                  # Next.js 14 app directory
-│   ├── about/           # About page
-│   ├── customer-portal/ # Customer portal
-│   ├── products/       # Products page
-│   ├── support/        # Support page
-│   └── layout.tsx      # Root layout
-├── components/          # Reusable components
+lightspeed-website/
+├── app/                  # Next.js app router pages
+├── components/          # Reusable React components
 ├── hooks/              # Custom React hooks
 ├── lib/               # Utility functions
 ├── public/            # Static assets
 └── styles/            # Global styles
 ```
 
-## 🚀 Deployment
+## 🌍 Features
 
-This website is optimized for deployment on Vercel. To deploy:
-
-1. Push your code to GitHub
-2. Import your repository to Vercel
-3. Vercel will automatically detect Next.js and configure the build settings
-4. Add any necessary environment variables in the Vercel dashboard
-
-### Build Command
-```bash
-next build
-```
-
-### Output Directory
-```
-.next
-```
-
-## 🧪 Development
-
-- Run tests: `npm test`
-- Lint code: `npm run lint`
-- Format code: `npm run format`
-
-## 📦 Dependencies
-
-- Next.js 14.2.16
-- React 18
-- TypeScript
-- TailwindCSS
-- Radix UI Components
-- Framer Motion
-- React Hook Form
-- Zod
-- And more (see package.json)
+- **Homepage**: Modern landing page with hero section and key features
+- **About**: Company history and mission
+- **Coverage**: Interactive map of service areas
+- **Products**: Internet packages and pricing
+- **Support**: Customer support portal
+- **Customer Portal**: Secure client dashboard
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+We welcome contributions to Light Speed! Please follow these steps:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## 👥 Team
+
+### Core Maintainers
+- [Kevin Julu](https://github.com/Kevinjulu) - Project Lead 👻
+- [Vivian Dande](https://github.com/viviandande) - Lead Developer
+
+### Contributors
+We appreciate all our contributors! [See the contributor list](https://github.com/Kevinjulu/Lightspeed-Website/graphs/contributors)
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- Your Name - Initial work
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- Radix UI for the component library
-- Vercel for hosting
-- Next.js team for the amazing framework
+- Thanks to all our contributors and supporters
+- Special thanks to the Next.js and Vercel teams
+- Radix UI team for the amazing component library
+
+---
+
+<div align="center">
+  Made with ❤️ by Kevin Julu (👻) and Vivian Dande
+</div>
