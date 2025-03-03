@@ -13,27 +13,27 @@ export default function Navbar() {
           </Link>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+              <Link href="/" className="text-white hover:text-yellow-400 px-3 py-2 rounded-xl text-sm font-medium">
                 Home
               </Link>
               <Link
                 href="/products"
-                className="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white hover:text-yellow-400 px-3 py-2 rounded-xl text-sm font-medium"
               >
                 Products
               </Link>
-              <Link href="/about" className="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+              <Link href="/about" className="text-white hover:text-yellow-400 px-3 py-2 rounded-xl text-sm font-medium">
                 About Us
               </Link>
               <Link
                 href="/coverage"
-                className="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white hover:text-yellow-400 px-3 py-2 rounded-xl text-sm font-medium"
               >
                 Coverage
               </Link>
               <Link
                 href="/support"
-                className="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white hover:text-yellow-400 px-3 py-2 rounded-xl text-sm font-medium"
               >
                 Support
               </Link>
@@ -41,13 +41,13 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <Link href="/customer-portal">
-              <Button className="bg-yellow-400 text-purple-900 hover:bg-yellow-500 font-semibold px-6 py-2">
+              <Button className="bg-yellow-400 text-purple-900 hover:bg-yellow-500 font-semibold px-6 py-2 rounded-xl">
                 Customer Portal
               </Button>
             </Link>
           </div>
           <div className="md:hidden">
-            <Button variant="ghost" className="text-white">
+            <Button variant="ghost" className="text-white rounded-xl">
               <Menu className="h-6 w-6" />
             </Button>
           </div>
@@ -56,4 +56,3 @@ export default function Navbar() {
     </nav>
   )
 }
-
